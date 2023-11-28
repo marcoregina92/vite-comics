@@ -1,5 +1,4 @@
 <script>
-import AppMain from './AppMain.vue';
 
 export default {
     name: "AppMain",
