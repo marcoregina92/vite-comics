@@ -1,31 +1,22 @@
 <script>
 
+import AppJumbotron from "../components/AppJumbotron.vue";
+
+
 export default {
     name: "AppMain",
     data() {
         return {};
-    }
+    },
+    components: { AppJumbotron }
+
 }
 </script>
 
 
 <template>
-    <section class="jumbotron">
-        <div class="container">
-            <h2> ---- CONTENT GOES HERE ---- </h2>
-        </div>
-    </section>
+    <AppJumbotron />
 </template>
 
 
-<style scoped>
-.jumbotron {
-    height: 200px;
-    background-color: black;
-    color: white;
-    margin-top: 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-</style>
+<style scoped></style>
