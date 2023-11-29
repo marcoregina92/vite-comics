@@ -16,17 +16,17 @@ export default {
             <div class="footerLinks d-flex p-5">
                 <ul>
                     <h5 class="text-white">DC COMICS</h5>
-                    <li class="text-white">Characters</li>
-                    <li class="text-white">Comics</li>
-                    <li class="text-white">Movies</li>
-                    <li class="text-white">TV</li>
-                    <li class="text-white">Games</li>
-                    <li class="text-white">Videos</li>
-                    <li class="text-white">News</li>
+                    <li class="text-white"><a href="#">Characters</a></li>
+                    <li class="text-white"><a href="#">Comics</a></li>
+                    <li class="text-white"><a href="#">Movies</a></li>
+                    <li class="text-white"><a href="#">TV</a></li>
+                    <li class="text-white"><a href="#">Games</a></li>
+                    <li class="text-white"><a href="#">Videos</a></li>
+                    <li class="text-white"><a href="#">News</a></li>
                     <ul class="text-white ps-0 pt-2">
                         <h5>SHOP</h5>
-                        <li>Shop DC</li>
-                        <li>Shop DC Collectibles</li>
+                        <li><a href="#">Shop DC</a></li>
+                        <li><a href="#">Shop DC Collectibles</a></li>
                     </ul>
                 </ul>
                 <ul>
@@ -82,7 +82,7 @@ h5 {
 
 a {
     text-decoration: none;
-    color: white;
+    color: grey;
 }
 
 .logoDc {

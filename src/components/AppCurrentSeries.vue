@@ -25,8 +25,8 @@ export default {
 
             </div>
 
-            <div class="more">
-
+            <div class="more text-white">
+                LOAD MORE
             </div>
         </div>
     </section>
@@ -47,8 +47,9 @@ section {
     position: relative;
     top: -14px;
     left: 281px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
+    text-align: center;
 }
 
 .cards {
@@ -73,5 +74,14 @@ p {
     font-weight: 800;
     text-align: start;
     padding-top: 10px;
+}
+
+.more {
+    position: relative;
+    left: 548px;
+    width: 120px;
+    background-color: #0282f9;
+    padding: 10px;
+    font-weight: bold;
 }
 </style>
