@@ -24,6 +24,6 @@ export default {
 <style scoped>
 .bottomFooter {
     min-height: 200px;
-    background-color: black;
+    background-color: #303030;
 }
 </style>
