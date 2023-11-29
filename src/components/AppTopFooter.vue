@@ -12,8 +12,8 @@ export default {
 
 <template>
     <section>
-        <div class="container-fluid p-5 d-flex justify-content-around">
-            <div class="d-flex">
+        <div class="container-fluid d-flex justify-content-around">
+            <div class="footerLinks d-flex p-5">
                 <ul>
                     <h5 class="text-white">DC COMICS</h5>
                     <li class="text-white">Characters</li>
@@ -53,9 +53,7 @@ export default {
                 </ul>
             </div>
 
-            <div>
-                <img src="../assets/img/dc-logo-bg.png" alt="">
-            </div>
+            <div class="logoDc"></div>
         </div>
     </section>
 </template>
@@ -63,9 +61,13 @@ export default {
 
 <style scoped>
 section {
+    display: flex;
     background-image: url(../assets/img/footer-bg.jpg);
     height: 400px;
+}
 
+.footerLinks {
+    width: 30%;
 }
 
 ul {
@@ -83,10 +85,10 @@ a {
     color: white;
 }
 
-img {
-    position: relative;
-    bottom: 137px;
-    width: 513px;
-    background-size: ;
+.logoDc {
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../assets/img/dc-logo-bg.png");
 }
 </style>
